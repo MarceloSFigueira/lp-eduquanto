@@ -10,13 +10,7 @@ align-items: center;
 
 @media (max-width: 768px){
 height: 80vh;
-
 }
-`;
-
-export const Gif = styled.img`
-max-width: 100%;
-height: auto;
 `;
 
 export const VideoContainer = styled.section`
