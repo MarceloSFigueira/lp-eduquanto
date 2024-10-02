@@ -17,21 +17,23 @@ function Data() {
         <Img src={ImgEdu} />
        </div>
        <div className='data-list'>
-            <div>
+            <div className='content-circle'>
                 <div className='circle'>
                     <img src={Icon1} />
                 </div>
+                <p className='circle-description'>Integrando dados</p>
             </div>
-            <div>
-            <div className='circle'>
-                <img src={Icon2} />
+            <div className='content-circle'>
+                <div className='circle'>
+                    <img src={Icon2} />
+                </div>
+                <p className='circle-description'>Gerando informações relevantes</p> 
             </div>
-                
-            </div>
-            <div>
-            <div className='circle'>
-                <img src={Icon3} />
-            </div>
+            <div className='content-circle'>
+                <div className='circle'>
+                    <img src={Icon3} />
+                </div>
+                <p className='circle-description'>Facilitando as tomadas de decisões</p>
             </div>
        </div>
       </SectionData>
