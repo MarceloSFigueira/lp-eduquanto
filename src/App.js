@@ -7,6 +7,7 @@ import Contact from './components/Contact/index.js';
 import Dinamic from './components/Dinamic/index.js';
 import Impacts from './components/Impacts/index.js';
 import RaioX from './components/RaioX/index.js';
+import Help from './components/Help/index.js';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <Dinamic />
     <Impacts />
     <RaioX />
+    <Help />
     <Contact />
 
     
