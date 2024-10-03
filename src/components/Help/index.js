@@ -5,9 +5,6 @@ import help2 from '../../assets/help2.png';
 import help3 from '../../assets/help3.png';
 import help4 from '../../assets/help4.png';
 
-
-
-
 function Help() {
   
 
