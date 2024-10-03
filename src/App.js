@@ -5,6 +5,7 @@ import Management from './components/Management/index.js';
 import Data from './components/Data/index.js';
 import Contact from './components/Contact/index.js';
 import Dinamic from './components/Dinamic/index.js';
+import Impacts from './components/Impacts/index.js';
 
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
     <Hero />
     <Management />
     <Data />
-    <Contact />
     <Dinamic />
+    <Impacts />
+    <Contact />
 
     
     
