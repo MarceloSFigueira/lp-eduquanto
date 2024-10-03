@@ -1,16 +1,20 @@
 import styled from "styled-components";
 
 export const SectionManagement = styled.section`
-height: 90vh;
-width: 100%;
-background: #000;
-display: flex;
-justify-content: center;
-align-items: center;
+  height: 90vh;
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-@media (max-width: 768px){
-height: 80vh;
-}
+  @media (max-width: 768px) {
+    height: 80vh;
+  }
+
+  @media (max-width: 480px) {
+    height: 70vh;
+  }
 `;
 
 export const VideoContainer = styled.section`
@@ -18,6 +22,16 @@ export const VideoContainer = styled.section`
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+
+  @media (max-width: 768px) {
+    height: 80vh;
+    width: 100%;
+  }
+
+  @media (max-width: 480px) {
+    height: 70vh;
+    width: 100%;
+  }
 `;
 
 export const StyledVideo = styled.video`
@@ -26,6 +40,16 @@ export const StyledVideo = styled.video`
   left: 50%;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Faz com que o vídeo preencha toda a área */
+  object-fit: cover;
   transform: translate(-50%, -50%);
+
+  @media (max-width: 768px) {
+    width: auto;
+    height: 100%;
+  }
+
+  @media (max-width: 480px) {
+    width: auto;
+    height: 100%;
+  }
 `;

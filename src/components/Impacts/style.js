@@ -8,7 +8,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding-bottom: 50px;
+padding-bottom: 100px;
 
 @media (max-width: 768px){
 flex-direction: column;
