@@ -12,6 +12,7 @@ import Help2 from './components/Help2/index.js';
 import Diagnosis from './components/Diagnosis/index.js';
 import Integration from './components/Integration/index.js';
 import Details from './components/Details/index.js';
+import School from './components/School/index.js';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
     <Diagnosis />
     <Integration />
     <Details />
+    <School />
     <Contact />
 
     

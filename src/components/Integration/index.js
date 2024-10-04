@@ -11,7 +11,7 @@ function Integration() {
 
   return (
     <>
-      <SectionIntegration>
+      <SectionIntegration id='integration'>
        <div className='eduzinho-img'>
             <h2>Integração total com outros sistemas</h2>
             <h3>Nossa plataforma se conecta com os <strong>principais sistemas de gestão escolar, garantindo que todos os dados críticos de sua instituição estejam</strong> centralizados e acessíveis de maneira simples e rápida.</h3>

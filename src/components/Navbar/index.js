@@ -22,19 +22,17 @@ function Navbar() {
       <Img src={Logo} />
       <BoxItens>
         <a href='#hero'><li>Início</li></a>
-        <a href='#who'><li>Quem Somos</li></a>
-        <a href='#services'><li>Serviços</li></a>
-        <a href='#areas'><li>Áreas de atuação</li></a>
-        <a href='#contato'><li>Contato</li></a>
-        <a href='https://jobs.quickin.io/vagas/jobs' target='_blanck'><li>Vagas abertas</li></a>
+        <a href='#dinamic'><li>Dinâmico</li></a>
+        <a href='#impacts'><li>Impactos</li></a>
+        <a href='#integration'><li>Integração</li></a>
+        <a href='#contact'><li>Contato</li></a>
       </BoxItens>
       <BoxItensResponsive style={style}>
         <a href='#hero'><li>Início</li></a>
-        <a href='#who'><li>Quem Somos</li></a>
-        <a href='#services'><li>Serviços</li></a>
-        <a href='#areas'><li>Áreas de atuação</li></a>
-        <a href='#contato'><li>Contato</li></a>
-        <a href='https://jobs.quickin.io/vagas/jobs' target='_blanck'><li>Vagas abertas</li></a>
+        <a href='#dinamic'><li>Dinâmico</li></a>
+        <a href='#impacts'><li>Impactos</li></a>
+        <a href='#integration'><li>Integração</li></a>
+        <a href='#contact'><li>Contato</li></a>
       </BoxItensResponsive>
       <MenuIcon onClick={handleLogoClick} style={{color: "#fff", fontSize: "2em"}}/>
     </Header>

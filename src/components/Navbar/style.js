@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
-height:100px;
+height:80px;
 width: 100%;
 background: linear-gradient(90deg, rgb(224, 74, 76) 7.72%, rgb(9, 167, 93) 28.04%, rgb(150, 194, 39) 46.09%, rgb(246, 190, 51) 62.35%, rgb(111, 80, 150) 79.95%, rgb(165, 110, 165) 94.4%);
 background-size: 300% 300%;
@@ -10,7 +10,10 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
-position: relative;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 9999999999999999999999999999999999999999;
 
   @keyframes gradientAnimation {
       0% {
@@ -82,7 +85,7 @@ list-style: none;
 }
 
 position: absolute;
-top: 80px;
+top: 64px;
 right: 0;
 background: #fff;
 flex-direction: column;

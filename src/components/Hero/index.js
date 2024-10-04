@@ -8,7 +8,7 @@ function Hero() {
 
   return (
     <>
-    <SectionEdu>
+    <SectionEdu id='hero'>
         <Gif src={Video} alt="Título animado" />
     </SectionEdu>
     </>

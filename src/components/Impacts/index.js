@@ -13,7 +13,7 @@ function Impacts() {
 
   return (
     <>
-      <SectionImpacts>
+      <SectionImpacts id='impacts'>
         <div className='title-impacts'>
             <h2>Essas questões, quando não são bem visualizadas e analisadas, levam a <strong>ineficiências, insatisfação</strong> e <strong>perda de recursos</strong></h2>
         </div>

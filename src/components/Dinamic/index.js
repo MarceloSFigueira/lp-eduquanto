@@ -19,7 +19,7 @@ function Dinamic() {
 
   return (
     <>
-      <SectionDinamic>
+      <SectionDinamic id='dinamic'>
        <div className='eduzinho-img'>
         <h2>O dia a dia gerindo uma escola <strong>é dinâmico e repleto de desafios</strong></h2>
         <Img src={ImgEdu} />

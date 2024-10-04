@@ -5,7 +5,7 @@ import ImgEdu from '../../assets/eduzinhocontact.svg';
 function Contact() {
   return (
     <>
-    <SectionContact>
+    <SectionContact id='contact'>
         <div className='eduzinho-img'>
             <Img src={ImgEdu} />
         </div>
