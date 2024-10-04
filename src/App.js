@@ -11,6 +11,7 @@ import Help from './components/Help/index.js';
 import Help2 from './components/Help2/index.js';
 import Diagnosis from './components/Diagnosis/index.js';
 import Integration from './components/Integration/index.js';
+import Details from './components/Details/index.js';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
     <Help2 />
     <Diagnosis />
     <Integration />
+    <Details />
     <Contact />
 
     
