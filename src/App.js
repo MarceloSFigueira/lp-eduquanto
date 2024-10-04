@@ -9,6 +9,7 @@ import Impacts from './components/Impacts/index.js';
 import RaioX from './components/RaioX/index.js';
 import Help from './components/Help/index.js';
 import Help2 from './components/Help2/index.js';
+import Diagnosis from './components/Diagnosis/index.js';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
     <RaioX />
     <Help />
     <Help2 />
+    <Diagnosis />
     <Contact />
 
     
