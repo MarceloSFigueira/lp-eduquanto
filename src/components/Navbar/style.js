@@ -45,9 +45,22 @@ export const BoxItens = styled.ul`
 display: flex;
 flex-direction: row;
 gap: 20px;
+align-items: center;
 
 a{
 text-decoration: none;
+}
+
+.btn-system{
+background-color: #E04A4C;
+padding: 10px 30px;
+border-radius: 10px;
+transition: .3s;
+}
+
+.btn-system:hover{
+background-color: #96C227;
+transform: scale(1.1);
 }
 
 li{
