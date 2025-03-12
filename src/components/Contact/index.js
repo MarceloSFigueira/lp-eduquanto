@@ -13,9 +13,9 @@ function Contact() {
             <div>
                 <h2>CONTATOS</h2>
                 <h3>Email:</h3>
-                <p>xxxxxx@xxxxxxx.com.br</p>
+                <p>luiz@eduquanto.com.br</p>
                 <h3>Telefone:</h3>
-                <p>(XX) XXXX-XXXX</p>
+                <p>(85) 9 9112-3270</p>
             </div>
 
         </div>
