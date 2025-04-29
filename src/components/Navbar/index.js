@@ -26,14 +26,14 @@ function Navbar() {
         <a href='#dinamic'><li>Dinâmico</li></a>
         <a href='#impacts'><li>Impactos</li></a>
         <a href='#integration'><li>Integração</li></a>
-        <a href='#contact'><li>Contato</li></a>
+        <a href='/contato'><li>Contato</li></a>
       </BoxItens>
       <BoxItensResponsive style={style}>
         <a href='#hero'><li>Início</li></a>
         <a href='#dinamic'><li>Dinâmico</li></a>
         <a href='#impacts'><li>Impactos</li></a>
         <a href='#integration'><li>Integração</li></a>
-        <a href='#contact'><li>Contato</li></a>
+        <a href='/contato'><li>Contato</li></a>
         <a href='https://edu.conjosa.com.br/' className='btn-system'><li>Login</li></a>
       </BoxItensResponsive>
       <MenuIcon onClick={handleLogoClick} style={{color: "#fff", fontSize: "2em"}}/>
